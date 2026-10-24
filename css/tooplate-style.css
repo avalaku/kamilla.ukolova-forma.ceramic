@@ -17,7 +17,7 @@ ul {
 }
 
 body {
-    font-family: 'Lora', serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -36,16 +36,14 @@ p {
 	font-weight: 700;
 	letter-spacing: 1px;
 }
-section[id] {
-    scroll-margin-top: 70px;
-}
+
 
 /* ======================
 ----- FIRST SECTION------
 =======================*/
 
 .first-section {
-	background-image: url(../img/first-section-new1.png);
+	background-image: url(../img/first-section-bg.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -98,6 +96,7 @@ section[id] {
 
 .second-section h4 {
 	font-size: 16px;
+	color: #415b90;
 	margin-top: 25px;
 	margin-bottom: 15px;
 }
@@ -108,7 +107,7 @@ section[id] {
 =======================*/
 
 .third-section {
-	background-image: url(../img/third-section-new.png);
+	background-image: url(../img/third-section-bg.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -116,12 +115,6 @@ section[id] {
 }
 
 .third-section .left-image img {
-	width: 100%;
-	overflow: hidden;
-	text-align: center;
-}
-
-.kartinka {
 	width: 100%;
 	overflow: hidden;
 	text-align: center;
@@ -139,6 +132,7 @@ section[id] {
 
 .third-section h4 {
 	margin-top: 60px;
+	color: #fff;
 	font-size: 24px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -146,6 +140,7 @@ section[id] {
 }
 
 .third-section p {
+	color: #fff;
 	margin-top: 15px;
 }
 
@@ -155,7 +150,7 @@ section[id] {
 =======================*/
 
 .fourth-section {
-	background-image: url(../img/fourth-section-new.png);
+	background-image: url(../img/fourth-section-bg.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -170,24 +165,22 @@ section[id] {
 .fourth-section .portfolio-item img {
 	width: 100%;
 	overflow: hidden;
-	aspect-ratio: 1/1;
 }
 
 .fourth-section .first-item .text {
-	background-color: #4f473a0e;
+	background-color: #f4f4f4;
 }
 
 .fourth-section .second-item .text {
-	background-color: #4f473a1c;
+	background-color: #eaeaea;
 }
 
 .fourth-section .third-item .text {
-	background-color: #4f473a33;
+	background-color: #dedede;
 }
 
 .fourth-section .portfolio-item .text {
 	padding: 20px 25px;
-	height: 120px;
 }
 
 .fourth-section .portfolio-item .text span {
@@ -197,11 +190,12 @@ section[id] {
 
 .fourth-section .portfolio-item .text h4 {
 	font-size: 17px;
+	color: #343434;
 	font-weight: 700;
 }
 
 .fourth-section .send-to-portfolio {
-	background-color: #947462;
+	background-color: #415b90;
 	text-align: center;
 	padding:  46.7% 0px;
 }
@@ -218,73 +212,22 @@ section[id] {
 
 .fourth-section .send-to-portfolio .primary-button a {
 	background-color: #fff;
-	color: #584337;
-	transition: all 0.3s;
+	color: #415b90;
 }
 
 .fourth-section .send-to-portfolio .primary-button a:hover {
-	background-color: #584337;
+	background-color: #22304d;
 	color: #fff;
-
+	transition: all 0.3s;
 }
 
-.fourth-section .row {
-    display: flex;
-    align-items: stretch;
-}
-
-.fourth-section .row > .col-md-3 {
-    display: flex;
-    flex-direction: column;
-}
-
-.fourth-section .portfolio-item {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.fourth-section .portfolio-item .image {
-    flex-shrink: 0;
-}
-
-.fourth-section .portfolio-item .text {
-    flex: 1;
-}
-
-.fourth-section .send-to-portfolio {
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    text-align: center;
-}
-@media (max-width: 767px) {
-    .fourth-section .row {
-        display: block;
-    }
-
-    .fourth-section .row > .col-md-3 {
-        display: block;
-    }
-
-    .fourth-section .send-to-portfolio {
-        min-height: 220px;
-        height: auto;
-    }
-}
 
 /* ======================
 ----- FIVTH SECTION------
 =======================*/
 
 .fivth-section {
-	background-image: url(../img/fivth-section-new.png);
+	background-image: url(../img/fivth-section-bg.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -314,6 +257,7 @@ section[id] {
 
 .fivth-section h4 {
 	margin-top: 60px;
+	color: #fff;
 	font-size: 24px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -321,6 +265,7 @@ section[id] {
 }
 
 .fivth-section p {
+	color: #fff;
 	margin-top: 15px;
 }
 
@@ -330,7 +275,7 @@ section[id] {
 =======================*/
 
 .sixth-section {
-	background-image: url(../img/sixth-section-new.png);
+	background-image: url(../img/sixth-section-bg.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -373,16 +318,15 @@ section[id] {
 	font-size: 11px;
 	text-transform: uppercase;
 	font-weight: 700;
-	background-color: #947462;
+	background-color: #415b90;
 	color: #fff;
 	letter-spacing: 1px;
-	transition: all 0.3s;
-
 }
 
 .sixth-section button:hover {
 	color: #fff;
-	background-color: #584337;
+	background-color: #22304d;
+	transition: all 0.3s;
 }
 
 .sixth-section .right-info {
@@ -399,13 +343,13 @@ section[id] {
 	display: block;
 	font-size: 13px;
 	font-weight: 700;
-	color: #584337;
+	color: #415b90;
 	margin-bottom: 20px;
 }
 
 .sixth-section .right-info ul li a {
 	text-decoration: none;
-	color: #584337;
+	color: #415b90;
 }
 
 .sixth-section .right-info ul li i {
@@ -415,9 +359,9 @@ section[id] {
 	height: 46px;
 	line-height: 46px;
 	text-align: center;
-	color: #584337;
+	color: #415b90;
 	border-radius: 50%;
-	border: 1px solid #584337;
+	border: 1px solid #415b90;
 	font-size: 18px;
 }
 
@@ -427,7 +371,7 @@ section[id] {
 
 footer {
 	text-align: center;
-	background-image: url(../img/footer-new.png);
+	background-image: url(../img/footer-bg.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -446,23 +390,21 @@ footer ul li {
 }
 
 footer ul li a {
-    font-size: 20px;
-    color: #947462;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    text-align: center;
-    background-color: #fffdf8;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-    text-decoration: none;
+	font-size: 16px;
+	color: #415b90;
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 50%;
 }
 
 footer ul li a:hover {
-    background-color: #584337;
-    color: #fffdf8;
+	background-color: #22304d;
+	color: #415b90;
+	transition: all 0.3s;
 }
 
 footer p {
@@ -483,7 +425,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #fff;
+	color: #3CF;
 }
 
 
@@ -492,11 +434,11 @@ footer a:hover {
 ======================*/
 
 .first-gallery-section {
-	background-image: url(../img/first-section-new1.png);
+	background-image: url(../img/heading-bg.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 20% 0px 20% 0px;
+	padding: 10% 0px 15% 0px;
 }
 
 .first-gallery-section .text-content {
@@ -570,22 +512,21 @@ footer a:hover {
 
 .filter-categories ul li span {
   cursor: pointer;
-  color: #947462;
+  color: #7a7a7a;
   border-radius: 25px;
-  background: #fffdf8;
+  background: white;
   display: inline-block;
-  border: 1px solid #947462;
+  border: 1px solid #ddd;
   padding: 10px 18px;
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 700;
-  transition: all 0.3s
 }
 
 .filter-categories ul li.active span {
-  background: #947462;
+  background: #415b90;
   color: white;
-  border: 1px solid #947462;
+  border: 1px solid #415b90;
 }
 
 .projects-holder .mix {
@@ -619,16 +560,17 @@ footer a:hover {
 .content-wrapper .project-item .text {
 	text-align: left;
 	padding: 20px 25px;
-	background-color: #4f473a0e;
-	height: 120px
+	background-color: #f4f4f4;
 }
 
 .content-wrapper .project-item .text span {
 	font-size: 13px;
+	color: #7a7a7a;
 }
 
 .content-wrapper .project-item .text h4 {
 	font-size: 17px;
+	color: #343434;
 	font-weight: 700;
 }
 
@@ -640,10 +582,7 @@ footer a:hover {
 @media (max-width: 1200px){
 
 	.fourth-section .send-to-portfolio {
-		padding:  50% 0px;
-		height: 362.5px;
-		display: grid;
-        place-content: center;
+		padding:  47.5% 0px;
 	}
 
 	.gallery-page .portfolio-items  {
@@ -667,10 +606,6 @@ footer a:hover {
 	}
 
 	.third-section .left-image img {
-		width: 50%;
-	}
-	
-	.kartinka {
 		width: 50%;
 	}
 
@@ -1018,24 +953,4 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
-}
-
-footer .copyright {
-    max-width: 850px;
-    margin: 25px auto 15px;
-    padding: 0 20px;
-    font-size: 14px;
-    line-height: 1.8;
-    font-weight: 400;
-    color: #fffdf8;
-    text-align: center;
-    box-sizing: border-box;
-}
-
-@media (max-width: 600px) {
-    footer .copyright {
-        padding: 0 15px;
-        font-size: 12px;
-        line-height: 1.7;
-    }
 }
